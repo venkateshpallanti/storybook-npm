@@ -10,7 +10,10 @@
     "storybook": "ng run storybook-library:storybook",
     "build-storybook": "ng run storybook-library:build-storybook"
   },
-  "private": true,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
