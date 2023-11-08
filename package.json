@@ -24,6 +24,14 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.9",
     "@angular/cli": "^16.2.6",
@@ -46,6 +54,7 @@
     "ng-packagr": "^16.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "semantic-release": "^22.0.7",
     "storybook": "^7.5.3",
     "typescript": "~5.1.3"
   }
